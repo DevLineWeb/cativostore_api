@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+
+* {
+    font-family: 'Fredoka', cursive;
+    margin: 0 auto;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+s {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+b {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
+
+main {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navBar {
+    background-color: #1c1b1f;
+    border-bottom: 1px solid #08a1cf;
+}
+
+.logo {
+    font-size: 26px;
+    width: 15%;
+    float: left;
+    padding: 6px;
+}
+
+.navItem {
+    display: inline-block;
+    font-size: 22px;
+    padding: 10px;
+}
+
+
+
+body {
+    background-image: url("../img/Background.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.boxForm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25%;
+    height: 350px;
+    box-shadow: 0 1px 5px 0 #cccccc;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.boxForm form {
+    display: inline-table;
+    padding: 20px;
+}
+
+.formCamp {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.boxForm legend {
+    border-bottom: 2px solid #0ea5b9;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #1c1b1f;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+label {
+    margin-top: 230px;
+}
+
+.sendBtn {
+    background-color: #58ff8abd;
+    margin-top: 40px !important;
+    width: 48% !important;
+    padding: 20px;
+    font-size: 16px;
+    color: rgb(0, 37, 41);
+    border-radius: 2px;
+    border: none !important;
+    cursor: pointer;
+}
+
+.signBtn {
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    float: right;
+    margin-top: 40px !important;
+    background-color: #58deffc0;
+    width: 40% !important;
+    padding: 20px;
+    font-size: 14px;
+    color: rgb(0, 31, 34);
+    border-radius: 2px;
+    border: none !important;
+}
+
+.boxForm a:hover {
+    color: #1c1b1f;
+    background-color: #58deff75;
+    transition: all 0.3s;
+    border: 1px solid #ffffff;
+}
+
+i {
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.sendBtn:hover {
+    background-color: #58ff8a8a !important;
+    transition: all 0.3s;
+}

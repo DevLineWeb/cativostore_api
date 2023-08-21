@@ -1,0 +1,160 @@
+@font-face {
+    font-family: GoodTimes;
+    src: url("../font/good\ times\ rg.otf");
+    }
+    
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #ffffff, rgb(137, 140, 155));
+    margin: 0 auto!important;
+}
+main {
+    width: 500px;
+    margin: 0 auto;
+}
+.box {
+    color: #ffffff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 110px;
+    background-color: rgb(44, 45, 51);
+    padding: 15px;
+    border-radius: 15px;
+}
+fieldset {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+legend {
+    margin-top: 20px;
+    font-family:'GoodTimes';
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+}
+.inputUser {
+    border: none;
+    border-bottom: 1px solid #ffbb00;
+    border-width: 100%;
+    outline: none;
+    height: 25px;
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    margin-top: 25px;
+    background: none;
+}
+.inputBox {
+    position: relative;
+}
+.inputLabel {
+    color: #ffffff;
+    padding: -20px;
+    pointer-events: none;
+    transition: .5s;
+    font-size: 10px;
+}
+.inputUser:focus ~ .inputLabel{
+    top:-20px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+
+.submit {
+    color: rgb(36, 32, 32);
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,#ffbb00, #fffb00);
+    height: 50px;
+    width: 440px;
+    cursor: pointer;
+}
+.submit:hover{
+    background: #ffffff;
+    color: rgb(44, 45, 51);
+    transition: all 0.8s;
+}
+
+.buttons{
+    text-align: center;
+    margin-top: 20px;
+}
+.efeito {
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background:rgb(44, 45, 51);
+    height: 50px;
+    width: 300px;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+}
+.efeito:hover{
+    background: #ffffff;
+    color: rgb(44, 45, 51);
+    box-shadow: inset 0 0 0 3px #ffffff;
+    transition: all 0.4s;
+}
+.background-3 {
+    background-color: rgb(44, 45, 51);
+    height: 22px;
+    margin-top: 215px;
+}
+.text-end{
+    float: left;
+    font-size: 6px;
+    color: #ffffff;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 30px;
+}
+.menu{
+    margin-top: 0!important;
+    padding: 0!important;
+}
+.menu {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(44, 45, 51);
+    font-family: 'GoodTimes';
+    font-size: 14px;
+}
+.menu ul {
+    list-style: none;
+    position: relative;
+}
+.menu ul li {
+    width: 150px;
+    float: left;
+}
+.menu a{
+    color: #ffffff;
+    padding: 16px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(44, 45, 51);
+}
+.menu ul ul {
+    position:absolute;
+    visibility: hidden;
+}
+.menu ul li:hover ul {
+    visibility: visible;
+    transition: all 0.4s;
+}
+.menu a:hover {
+    background-color: #ffffff;
+    color: rgb(44, 45, 51);
+    transition: all 0.2s;
+    border-bottom: 1px solid #fffb00;
+}
+.menu ul ul li {
+    float: none;
+    border: 1px solid #ccc;
+    transition: all 0.1s;
+}
